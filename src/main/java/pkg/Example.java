@@ -21,8 +21,8 @@ public class Example extends HttpServlet {
     private static final long serialVersionUID = 1L;
     
     private String jdbcUrl = "jdbc:oracle:thin:@localhost:1521:XE";
-    private String username = "system";
-    private String password = "20052025";
+    private String username = ""; // database username
+    private String password = ""; // database password
 
     public Example() {
         super();
